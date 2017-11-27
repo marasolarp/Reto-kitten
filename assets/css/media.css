@@ -1,0 +1,32 @@
+@media (min-width: 535px)and (max-width: 824px){/*entre estos tamaños las columnas deben ser de 100% de ancho*/
+	[class*="col-"]{/* *aplica a todas las columnas,[]=acceder a todo lo de adentro*/
+    width: 100%;
+  }
+	#kitten-photo{
+    background-image: url(../images/dawn.png);
+    background-size: cover;
+  background-repeat: no-repeat;
+  }
+  .kitty{
+    content: url(../images/kitten-large.png);/* content=la forma de cambiar la imagen en media query nos cambia la ruta de la imagen*/
+    width: 70%;
+    padding-left: 30%;
+    padding-top: 24%;
+  }
+ } 
+@media all and (max-width: 534px) {
+  [class*="col-"]{
+    width: 100%;
+  }
+  #kitten-photo{
+    background-image: url(../images/night.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .kitty{
+    content: url(../images/kitten-small.png);
+    width: 50%;
+    padding-left: 30%;
+    padding-top: 24%;
+  }
+}

@@ -1,0 +1,14 @@
+body{
+	padding: 0;
+	margin:0;
+}
+#kitten-photo{
+	background-image: url(../images/sunny-day.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.kitty{
+	padding-left: 29%;
+    padding-top: 24%;
+    width: 73%;
+}
